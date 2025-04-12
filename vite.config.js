@@ -3,7 +3,8 @@ import vue from "@vitejs/plugin-vue";
 //import tailwindcss from '@tailwindcss/vite'
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/yi-portfolio/',
+  // base: '/yi-portfolio/',
+  base: '/',
   plugins: [
     vue({
       template: {
