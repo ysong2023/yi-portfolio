@@ -18,7 +18,7 @@
         </div>
         <!-- Welcome -->
         <div id="home" class="relative h-[62.36vw]" style="background:url('images/section1-bg.png') center center / cover no-repeat;">
-          <div class="text-left font-['Inter-Bold',_sans-serif] text-[5vw] font-bold absolute left-[31.8vw] top-[20.40vw]">
+          <div class="text-left font-['Inter-Bold',_sans-serif] text-[5vw] font-bold absolute left-[31.8vw] top-[15vw]">
             <div class="text-[rgba(255,255,255,0.90)]">Welcome</div>
             <div class="text-left flex flex-row gap-[1.66vw]">
               <div class="text-[#0d4dcc]">Hey</div>
