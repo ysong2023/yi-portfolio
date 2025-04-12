@@ -1,4 +1,3 @@
-
 <template>
     <div class="bg-[#000000] h-auto relative pb-[6.04vw] overflow-hidden">
         <!-- 顶部菜单 -->
@@ -6,19 +5,19 @@
             <!-- 标题 -->
             <div class="text-[#00b2cc] font-bold font-['Inter-Bold'] 
                        text-[1.666vw] min-w-[4.930vw] flex-shrink-0">
-                Yi’s Portfolio
+                Yi's Portfolio
             </div>
             <!-- 导航菜单 -->
             <div class="flex gap-[3vw] items-center text-white font-['Inter-Regular']  text-[1.111vw]">
-                <a href="#">Home</a>
-                <a href="#">Skills</a>
-                <a href="#">Projects</a>
-                <a href="#">Resume</a>
-                <a href="#">Contact</a>
+                <a href="#home">Home</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#resume">Resume</a>
+                <a href="#contact">Contact</a>
             </div>
         </div>
         <!-- Welcome -->
-        <div class="relative h-[62.36vw]" style="background:url('images/section1-bg.png') center center / cover no-repeat;">
+        <div id="home" class="relative h-[62.36vw]" style="background:url('images/section1-bg.png') center center / cover no-repeat;">
           <div class="text-left font-['Inter-Bold',_sans-serif] text-[5vw] font-bold absolute left-[31.8vw] top-[20.40vw]">
             <div class="text-[rgba(255,255,255,0.90)]">Welcome</div>
             <div class="text-left flex flex-row gap-[1.66vw]">
@@ -68,7 +67,7 @@
         <!-- 标题上面横线 -->
         <div class="bg-[rgba(128,128,128,0.30)] w-[41.666vw] h-px mt-[5.972vw] mb-[3.194vw] mx-auto"></div>
         
-        <div class="text-[rgba(255,255,255,0.90)] text-center font-['Inter-Bold',_sans-serif] text-[5vw] font-bold mt-[3.194vw]">
+        <div id="skills" class="text-[rgba(255,255,255,0.90)] text-center font-['Inter-Bold',_sans-serif] text-[5vw] font-bold mt-[3.194vw]">
             My Skills
         </div>
         <div class="relative mt-[6.94vw] h-[21.9vw]">
@@ -131,7 +130,7 @@
         <!-- 标题上面横线 -->
         <div class="bg-[rgba(128,128,128,0.30)] w-[41.666vw] h-px mt-[5.972vw] mb-[3.194vw] mx-auto"></div>
         
-        <div class="text-[rgba(255,255,255,0.90)] text-center font-['Inter-Bold',_sans-serif] text-[5vw] font-bold left-[39.097vw] top-[160.000vw]">
+        <div id="projects" class="text-[rgba(255,255,255,0.90)] text-center font-['Inter-Bold',_sans-serif] text-[5vw] font-bold left-[39.097vw] top-[160.000vw]">
             Projects
         </div>
         
@@ -146,10 +145,10 @@
         local and cloud deployment with FastAPI backend, vector database for
         efficient document search, and a responsive frontend.
           </div>
-          <a href="#" class="bg-[#145ce5] rounded w-[8.333vw] h-[2.5vw] absolute left-[48.959vw] top-[9.444vw] text-[#ffffff] text-center font-['Inter-SemiBold',_sans-serif] text-[1.111vw] font-semibold flex items-center justify-center">
+          <a href="https://rag.heyitsyi.com" class="bg-[#145ce5] rounded w-[8.333vw] h-[2.5vw] absolute left-[48.959vw] top-[9.444vw] text-[#ffffff] text-center font-['Inter-SemiBold',_sans-serif] text-[1.111vw] font-semibold flex items-center justify-center">
             View
           </a>
-          <a href="#" class="bg-[#145ce5] rounded w-[8.333vw] h-[2.5vw] absolute left-[59.931vw] top-[9.444vw] text-[#ffffff] text-center font-['Inter-SemiBold',_sans-serif] text-[1.111vw] font-semibold flex items-center justify-center">
+          <a href="https://github.com/ysong2023/AWS-frontend-RAG" class="bg-[#145ce5] rounded w-[8.333vw] h-[2.5vw] absolute left-[59.931vw] top-[9.444vw] text-[#ffffff] text-center font-['Inter-SemiBold',_sans-serif] text-[1.111vw] font-semibold flex items-center justify-center">
             Source
           </a>
         </div>
@@ -161,10 +160,10 @@
           <div class="text-[rgba(255,255,255,0.80)] text-left font-['Inter-Regular',_sans-serif] text-[1.111vw] font-normal absolute left-[11.32vw] top-[5.486vw] w-[72.569vw]">
               A modern full-stack SaaS task management solution built with Next.js and Supabase. Features include AI-powered task categorization, cloud image attachments, Google/email authentication, and premium subscription options through Stripe. Empowers users with intelligent organization while maintaining an intuitive interface.
           </div>
-          <a href="#" class="bg-[#145ce5] rounded w-[8.333vw] h-[2.5vw] absolute left-[48.959vw] top-[9.444vw] text-[#ffffff] text-center font-['Inter-SemiBold',_sans-serif] text-[1.111vw] font-semibold flex items-center justify-center">
+          <a href="https://task.heyitsyi.com" class="bg-[#145ce5] rounded w-[8.333vw] h-[2.5vw] absolute left-[48.959vw] top-[9.444vw] text-[#ffffff] text-center font-['Inter-SemiBold',_sans-serif] text-[1.111vw] font-semibold flex items-center justify-center">
             View
           </a>
-          <a href="#" class="bg-[#145ce5] rounded w-[8.333vw] h-[2.5vw] absolute left-[59.931vw] top-[9.444vw] text-[#ffffff] text-center font-['Inter-SemiBold',_sans-serif] text-[1.111vw] font-semibold flex items-center justify-center">
+          <a href="https://github.com/ysong2023/TASK-APP" class="bg-[#145ce5] rounded w-[8.333vw] h-[2.5vw] absolute left-[59.931vw] top-[9.444vw] text-[#ffffff] text-center font-['Inter-SemiBold',_sans-serif] text-[1.111vw] font-semibold flex items-center justify-center">
             Source
           </a>
         </div>
@@ -173,22 +172,22 @@
         <!-- 标题上面横线 -->
         <div class="bg-[rgba(128,128,128,0.30)] w-[41.666vw] h-px mt-[5.972vw] mb-[3.194vw] mx-auto"></div>
 
-        <div class="text-[rgba(255,255,255,0.90)] text-center font-['Inter-Bold',_sans-serif] text-[5vw] font-bold left-[39.097vw] top-[160.000vw]">
+        <div id="resume" class="text-[rgba(255,255,255,0.90)] text-center font-['Inter-Bold',_sans-serif] text-[5vw] font-bold left-[39.097vw] top-[160.000vw]">
             Resume
         </div>
         
         <div class="flex w-full h-auto items-center justify-center mt-[3.333vw]">
           <div class="bg-[#145ce5] rounded-lg w-[16.388vw] h-[3.819vw] flex items-center justify-center font-['Inter-ExtraBold',_sans-serif] text-[1.666vw] font-extrabold">
             <div class="bg-[#ffffff] w-[1.666vw] h-[1.666vw] left-[41.180vw] top-[224.583vw]"></div>
-            <a href="#" class="text-[#ffffff] ml-[1.1vw]">View Resume</a>
+            <a href="https://drive.google.com/file/d/15uYlHVwDi-11A1YLMVe1BXH4K19XjnMC/view" class="text-[#ffffff] ml-[1.1vw]">View Resume</a>
           </div>
         </div>
         
         <!-- 标题上面横线 -->
         <div class="bg-[rgba(128,128,128,0.30)] w-[41.666vw] h-px mt-[5.972vw] mb-[3.194vw] mx-auto"></div>
         
-        <div class="text-[rgba(255,255,255,0.90)] text-center font-['Inter-Bold',_sans-serif] text-[5vw] font-bold w-full z-1">
-            Let’s Contact
+        <div id="contact" class="text-[rgba(255,255,255,0.90)] text-center font-['Inter-Bold',_sans-serif] text-[5vw] font-bold w-full z-1">
+            Let's Contact
         </div>
         
         <div class="relative pl-[7.916vw] mt-[4.583vw]">
