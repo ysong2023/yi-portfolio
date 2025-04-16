@@ -62,7 +62,7 @@
             <div class="text-[#cccce5] text-left font-['Inter-Regular',_sans-serif] text-[1.25vw] font-normal absolute left-[12.5vw] top-[35.277vw]">
                 M.Sc. in Data Science
             </div>
-            <img class="w-[27vw] h-[27vw] absolute left-[66.59vw] top-[7.5vw]" src="images/logo-10.png" style="object-fit: cover; aspect-ratio: 1"/>
+            <img class="w-[27vw] h-[27vw] absolute left-[66.59vw] top-[7.5vw]" src="images/photo 1.png" style="object-fit: cover; aspect-ratio: 1"/>
         </div>
         <!-- 标题上面横线 -->
         <div class="bg-[rgba(128,128,128,0.30)] w-[41.666vw] h-px mt-[5.972vw] mb-[3.194vw] mx-auto"></div>
@@ -179,7 +179,7 @@
         <div class="flex w-full h-auto items-center justify-center mt-[3.333vw]">
           <div class="bg-[#145ce5] rounded-lg w-[16.388vw] h-[3.819vw] flex items-center justify-center font-['Inter-ExtraBold',_sans-serif] text-[1.666vw] font-extrabold">
             <div class="bg-[#ffffff] w-[1.666vw] h-[1.666vw] left-[41.180vw] top-[224.583vw]"></div>
-            <a href="https://drive.google.com/file/d/15uYlHVwDi-11A1YLMVe1BXH4K19XjnMC/view" class="text-[#ffffff] ml-[1.1vw]">View Resume</a>
+            <a href="resume.pdf" class="text-[#ffffff] ml-[1.1vw]">View Resume</a>
           </div>
         </div>
         
