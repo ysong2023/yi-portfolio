@@ -622,10 +622,6 @@ video {
   left: 31.319vw;
 }
 
-.left-\[31\.666vw\] {
-  left: 31.666vw;
-}
-
 .left-\[31\.8vw\] {
   left: 31.8vw;
 }
@@ -658,10 +654,6 @@ video {
   left: 55.000vw;
 }
 
-.left-\[55\.347vw\] {
-  left: 55.347vw;
-}
-
 .left-\[57\.99\%\] {
   left: 57.99%;
 }
@@ -674,16 +666,12 @@ video {
   left: 59.931vw;
 }
 
-.left-\[66\.59vw\] {
-  left: 66.59vw;
+.left-\[65vw\] {
+  left: 65vw;
 }
 
 .left-\[7\.361vw\] {
   left: 7.361vw;
-}
-
-.left-\[7\.708vw\] {
-  left: 7.708vw;
 }
 
 .left-\[76\.041vw\] {
@@ -692,10 +680,6 @@ video {
 
 .left-\[78\.125vw\] {
   left: 78.125vw;
-}
-
-.left-\[78\.472vw\] {
-  left: 78.472vw;
 }
 
 .left-\[83\.055vw\] {
@@ -1003,12 +987,12 @@ video {
   width: 16.388vw;
 }
 
-.w-\[18\.055vw\] {
-  width: 18.055vw;
+.w-\[17vw\] {
+  width: 17vw;
 }
 
-.w-\[18vw\] {
-  width: 18vw;
+.w-\[18\.055vw\] {
+  width: 18.055vw;
 }
 
 .w-\[4\.305vw\] {
@@ -1017,6 +1001,10 @@ video {
 
 .w-\[4\.375vw\] {
   width: 4.375vw;
+}
+
+.w-\[40vw\] {
+  width: 40vw;
 }
 
 .w-\[41\.666vw\] {
@@ -1033,10 +1021,6 @@ video {
 
 .w-\[62\.222vw\] {
   width: 62.222vw;
-}
-
-.w-\[64\.027vw\] {
-  width: 64.027vw;
 }
 
 .w-\[7\.777vw\] {
