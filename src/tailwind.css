@@ -738,6 +738,10 @@ video {
   top: 12.986vw;
 }
 
+.top-\[12vw\] {
+  top: 12vw;
+}
+
 .top-\[13\.263vw\] {
   top: 13.263vw;
 }
@@ -772,10 +776,6 @@ video {
 
 .top-\[2\.708vw\] {
   top: 2.708vw;
-}
-
-.top-\[20\.40vw\] {
-  top: 20.40vw;
 }
 
 .top-\[22\.083vw\] {
@@ -1007,8 +1007,8 @@ video {
   width: 18.055vw;
 }
 
-.w-\[27vw\] {
-  width: 27vw;
+.w-\[18vw\] {
+  width: 18vw;
 }
 
 .w-\[4\.305vw\] {

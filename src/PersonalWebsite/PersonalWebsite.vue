@@ -1,13 +1,13 @@
 <template>
     <div class="bg-[#000000] h-auto relative pb-[6.04vw] overflow-hidden">
-        <!-- 顶部菜单 -->
+        <!-- Top Menu -->
         <div class="flex justify-between items-center w-full aspect-[1440/71] px-8 py-4 bg-[rgba(13,13,20,0.90)]">
-            <!-- 标题 -->
+            <!-- Title -->
             <div class="text-[#00b2cc] font-bold font-['Inter-Bold'] 
                        text-[1.666vw] min-w-[4.930vw] flex-shrink-0">
                 Yi's Portfolio
             </div>
-            <!-- 导航菜单 -->
+            <!-- Navigation Menu -->
             <div class="flex gap-[3vw] items-center text-white font-['Inter-Regular']  text-[1.111vw]">
                 <a href="#home">Home</a>
                 <a href="#skills">Skills</a>
@@ -41,30 +41,30 @@
             <div class="text-[#00b2e5] text-left font-['Inter-Bold',_sans-serif] text-[3.33vw] font-bold absolute left-[10.069vw] top-[2.708vw]">
                 About Me
             </div>
-            <div class="text-[#e5e5f2] text-left font-['Inter-Regular',_sans-serif] text-[1.38vw] font-normal absolute left-[10.416vw] top-[8.68vw] w-[64.027vw]">
-                I am passionate about Large Language Models and Machine Learning.
+            <div class="text-[#e5e5f2] text-left font-['Inter-Regular',_sans-serif] text-[1.38vw] font-normal absolute left-[10.416vw] top-[8.68vw] w-[40vw]">
+                I am a data science student specializing in computational linguistics with a unique blend of AI technical skills and legal knowledge.
             </div>
             <div class="text-[#ffffff] text-left font-['Inter-SemiBold',_sans-serif] text-[1.38vw] font-semibold absolute left-[10.416vw] top-[22.083vw]">
-                • University of A
+                • University of British Columbia
             </div>
             <div class="text-[#cccce5] text-left font-['Inter-Regular',_sans-serif] text-[1.25vw] font-normal absolute left-[12.5vw] top-[24.166vw]">
-                M.Sc. in Data Science
+                Master of Data Science - Computational Linguistics
             </div>
             <div class="text-[#ffffff] text-left font-['Inter-SemiBold',_sans-serif] text-[1.38vw] font-semibold absolute left-[10.416vw] top-[27.638vw]">
-                • University of A
+                • Renmin University of China
             </div>
             <div class="text-[#cccce5] text-left font-['Inter-Regular',_sans-serif] text-[1.25vw] font-normal absolute left-[12.5vw] top-[29.72vw]">
-                M.Sc. in Data Science
+                Master of Laws (LL.M.) - Data Law and Civil Law
             </div>
             <div class="text-[#ffffff] text-left font-['Inter-SemiBold',_sans-serif] text-[1.38vw] font-semibold absolute left-[10.416vw] top-[33.194vw]">
-                • University of A
+                • University of Strathclyde
             </div>
             <div class="text-[#cccce5] text-left font-['Inter-Regular',_sans-serif] text-[1.25vw] font-normal absolute left-[12.5vw] top-[35.277vw]">
-                M.Sc. in Data Science
+                B.Eng. in Electrical and Electronic Engineering
             </div>
-            <img class="w-[18vw] h-[27vw] absolute left-[66.59vw] top-[7.5vw]" src="images/photo 1.png" style="object-fit: cover;"/>
+            <img class="w-[18vw] h-[27vw] absolute left-[66.59vw] top-[12vw]" src="images/photo 1.png" style="object-fit: cover;"/>
         </div>
-        <!-- 标题上面横线 -->
+        <!-- Horizontal Line Above Title -->
         <div class="bg-[rgba(128,128,128,0.30)] w-[41.666vw] h-px mt-[5.972vw] mb-[3.194vw] mx-auto"></div>
         
         <div id="skills" class="text-[rgba(255,255,255,0.90)] text-center font-['Inter-Bold',_sans-serif] text-[5vw] font-bold mt-[3.194vw]">
@@ -77,11 +77,11 @@
           <div class="w-[4.375vw] h-[4.375vw] absolute left-[12.5vw] top-[2.152vw] overflow-hidden">
             <img class="w-[100%] h-[93.02%] absolute right-[0%] left-[0%] bottom-[3.49%] top-[3.49%] overflow-visible" src="images/group3.svg"/>
           </div>
-          <div class="text-[#3366cc] text-left font-['Inter-SemiBold',_sans-serif] text-[1.666vw] font-semibold absolute left-[7.708vw] top-[8.75vw]">
+          <div class="text-[#3366cc] text-center font-['Inter-SemiBold',_sans-serif] text-[1.666vw] font-semibold absolute left-[5.833vw] top-[8.75vw] w-[18.055vw]">
               Python
           </div>
           <div class="text-[rgba(255,255,255,0.90)] text-left font-['Inter-Regular',_sans-serif] text-[1.111vw] font-normal absolute left-[7.361vw] top-[13.263vw] w-[12.083vw]">
-              pandas, numpy, scikit-learn, matplotlib, tensorflow, keras
+              Pandas, NumPy, Matplotlib, NLTK, spaCy, FastAPI, Scikit-learn
           </div>
           
           
@@ -91,11 +91,11 @@
           <div class="w-[4.305vw] h-[4.305vw] absolute left-[36.111vw] top-[2.083vw] overflow-hidden">
               <img class="h-[auto] absolute left-[0] top-[0] overflow-visible" src="images/x-30-3-neural-network0.svg"/>
           </div>
-          <div class="text-[#3366cc] text-left font-['Inter-SemiBold',_sans-serif] text-[1.666vw] font-semibold absolute left-[31.666vw] top-[8.125vw]">
+          <div class="text-[#3366cc] text-center font-['Inter-SemiBold',_sans-serif] text-[1.666vw] font-semibold absolute left-[29.236vw] top-[8.125vw] w-[18.055vw]">
             ML/DS
           </div>
           <div class="text-[rgba(255,255,255,0.90)] text-left font-['Inter-Regular',_sans-serif] text-[1.111vw] font-normal absolute left-[31.319vw] top-[12.986vw] w-[12.083vw]">
-            Fine Tuning, Data Visualization, SVM, MLE, Data Engineering
+            PyTorch, TensorFlow, CNNs, RNNs, Classification, Clustering, XGBoost
           </div>
           
           
@@ -105,11 +105,11 @@
           <div class="w-[4.305vw] h-[4.305vw] absolute left-[59.444vw] top-[2.083vw] overflow-hidden">
               <img class="h-[auto] absolute left-[0.73px] top-[0.8px] overflow-visible" src="images/fullstack.svg"/>
           </div>
-          <div class="text-[#3366cc] text-left font-['Inter-SemiBold',_sans-serif] text-[1.666vw] font-semibold absolute left-[55.347vw] top-[8.75vw]">
+          <div class="text-[#3366cc] text-center font-['Inter-SemiBold',_sans-serif] text-[1.666vw] font-semibold absolute left-[52.638vw] top-[8.75vw] w-[18.055vw]">
             Full Stack
           </div>
           <div class="text-[rgba(255,255,255,0.90)] text-left font-['Inter-Regular',_sans-serif] text-[1.111vw] font-normal absolute left-[55.000vw] top-[13.263vw] w-[12.083vw]">
-            Frontend, Backend, Database, AWS, Cloud Server
+            SQL, PostgreSQL, MongoDB, Docker, Git, Linux, AWS, Next.js
           </div>
           
           
@@ -119,15 +119,15 @@
           <div class="w-[4.375vw] h-[4.375vw] absolute left-[83.055vw] top-[2.361vw] overflow-hidden">
             <img class="h-[auto] absolute left-0 top-0 overflow-visible" src="images/group4.svg"/>
           </div>
-          <div class="text-[#3366cc] text-left font-['Inter-SemiBold',_sans-serif] text-[1.666vw] font-semibold absolute left-[78.472vw] top-[8.75vw]">
+          <div class="text-[#3366cc] text-center font-['Inter-SemiBold',_sans-serif] text-[1.666vw] font-semibold absolute left-[76.041vw] top-[8.75vw] w-[18.055vw]">
             Linguistics
           </div>
           <div class="text-[rgba(255,255,255,0.90)] text-left font-['Inter-Regular',_sans-serif] text-[1.111vw] font-normal absolute left-[78.125vw] top-[13.611vw] w-[12.083vw]">
-            Computational Linguistics, Swahili
+            Word2Vec, Transformers, NER, Text Classification, Sentence Embeddings
           </div>
         </div>
         
-        <!-- 标题上面横线 -->
+        <!-- Horizontal Line Above Title -->
         <div class="bg-[rgba(128,128,128,0.30)] w-[41.666vw] h-px mt-[5.972vw] mb-[3.194vw] mx-auto"></div>
         
         <div id="projects" class="text-[rgba(255,255,255,0.90)] text-center font-['Inter-Bold',_sans-serif] text-[5vw] font-bold left-[39.097vw] top-[160.000vw]">
@@ -169,7 +169,7 @@
         </div>
         
         <img class="w-[43.28%] h-[14.04%] absolute right-[-1.27%] left-[57.99%] bottom-[8.16%] top-[77.8%] overflow-visible z-[0]" src="images/group7.svg"/>
-        <!-- 标题上面横线 -->
+        <!-- Horizontal Line Above Title -->
         <div class="bg-[rgba(128,128,128,0.30)] w-[41.666vw] h-px mt-[5.972vw] mb-[3.194vw] mx-auto"></div>
 
         <div id="resume" class="text-[rgba(255,255,255,0.90)] text-center font-['Inter-Bold',_sans-serif] text-[5vw] font-bold left-[39.097vw] top-[160.000vw]">
@@ -183,7 +183,7 @@
           </div>
         </div>
         
-        <!-- 标题上面横线 -->
+        <!-- Horizontal Line Above Title -->
         <div class="bg-[rgba(128,128,128,0.30)] w-[41.666vw] h-px mt-[5.972vw] mb-[3.194vw] mx-auto"></div>
         
         <div id="contact" class="text-[rgba(255,255,255,0.90)] text-center font-['Inter-Bold',_sans-serif] text-[5vw] font-bold w-full z-1">
