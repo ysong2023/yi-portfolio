@@ -62,7 +62,7 @@
             <div class="text-[#cccce5] text-left font-['Inter-Regular',_sans-serif] text-[1.25vw] font-normal absolute left-[12.5vw] top-[35.277vw]">
                 B.Eng. in Electrical and Electronic Engineering
             </div>
-            <img class="w-[18vw] h-[27vw] absolute left-[66.59vw] top-[12vw]" src="images/photo 1.png" style="object-fit: cover;"/>
+            <img class="w-[17vw] h-[27vw] absolute left-[65vw] top-[7.5vw]" src="images/photo 1.png" style="object-fit: cover;"/>
         </div>
         <!-- Horizontal Line Above Title -->
         <div class="bg-[rgba(128,128,128,0.30)] w-[41.666vw] h-px mt-[5.972vw] mb-[3.194vw] mx-auto"></div>
