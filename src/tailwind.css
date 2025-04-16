@@ -1043,14 +1043,6 @@ video {
   width: 100%;
 }
 
-.min-w-\[4\.930vw\] {
-  min-width: 4.930vw;
-}
-
-.flex-shrink-0 {
-  flex-shrink: 0;
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -1146,6 +1138,11 @@ video {
   background-color: rgba(26,26,38,0.50);
 }
 
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -1194,10 +1191,6 @@ video {
 
 .font-\[\'Inter-Bold\'\2c _sans-serif\] {
   font-family: 'Inter-Bold', sans-serif;
-}
-
-.font-\[\'Inter-Bold\'\] {
-  font-family: 'Inter-Bold';
 }
 
 .font-\[\'Inter-ExtraBold\'\2c _sans-serif\] {
@@ -1258,11 +1251,6 @@ video {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.text-\[\#00b2cc\] {
-  --tw-text-opacity: 1;
-  color: rgb(0 178 204 / var(--tw-text-opacity, 1));
 }
 
 .text-\[\#00b2e5\] {

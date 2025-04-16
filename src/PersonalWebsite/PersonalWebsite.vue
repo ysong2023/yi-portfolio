@@ -3,9 +3,8 @@
         <!-- Top Menu -->
         <div class="flex justify-between items-center w-full aspect-[1440/71] px-8 py-4 bg-[rgba(13,13,20,0.90)]">
             <!-- Title -->
-            <div class="text-[#00b2cc] font-bold font-['Inter-Bold'] 
-                       text-[1.666vw] min-w-[4.930vw] flex-shrink-0">
-                Yi's Portfolio
+            <div class="flex items-center">
+                <img src="images/web_logo_inv.png" alt="Yi's Portfolio" class="h-[2.5vw] object-contain" />
             </div>
             <!-- Navigation Menu -->
             <div class="flex gap-[3vw] items-center text-white font-['Inter-Regular']  text-[1.111vw]">
