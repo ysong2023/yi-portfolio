@@ -1,7 +1,7 @@
 # Yi Song
 
 ```
-+1-778-919-8854 | sy2023@student.ubc.ca | http://www.heyitsyi.com
++1-778-919-8854 | songyi.ds@gmail.com | http://www.heyitsyi.com
 ```
 ## ï Yi Song | § ysong
 
